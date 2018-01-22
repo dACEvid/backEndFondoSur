@@ -58,7 +58,10 @@ public class Customer {
 		this.last_name = last_name;
 		this.email = email;
 	}
-
+	
+	public Customer() {
+		super();
+	}
 	@Override
 	public String toString() {
 		return "Customer [first_name=" + first_name + ", last_name=" + last_name + ", email=" + email + "]";
